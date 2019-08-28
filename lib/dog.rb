@@ -12,7 +12,7 @@ class Dog
   end
   
   def self.clear_all
-    self.all = []
+    self.all.clear
   end
   
   def save(dog)
