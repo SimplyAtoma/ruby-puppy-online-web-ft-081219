@@ -16,6 +16,6 @@ class Dog
   end
   
   def save
-    
+    @@all.push(self)
   end
 end
